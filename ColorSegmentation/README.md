@@ -25,3 +25,19 @@ How to run it
 	#./ColorSegmentation colorFilter.png Orignal.png
 	#example
 
+<p align="center">
+  <img src="https://github.com/CarlosUrteaga/SLIC/blob/master/images/001TP_118.png?raw=true" alt="GroundTruth"/>
+  <img src="https://github.com/CarlosUrteaga/SLIC/blob/master/images/Ori-001TP_118.png?raw=true" alt="image"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/CarlosUrteaga/SLIC/blob/master/images/cars.png?raw=true" alt="cars"/>
+  <img src="https://github.com/CarlosUrteaga/SLIC/blob/master/images/line.png?raw=true" alt="line"/>
+</p>
+<p align="center">
+  <img src="https://github.com/CarlosUrteaga/SLIC/blob/master/images/road.png?raw=true" alt="road"/>
+  <img src="https://github.com/CarlosUrteaga/SLIC/blob/master/images/sidewalk.png?raw=true" alt="sidewalk"/>
+</p>
+<p align="center">
+  <img src="https://github.com/CarlosUrteaga/SLIC/blob/master/images/tree.png?raw=true" alt="tree"/>
+</p>
