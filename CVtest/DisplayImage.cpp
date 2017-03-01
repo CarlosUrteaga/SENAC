@@ -101,7 +101,57 @@ int main(int argc, char *argv[]) {
     //channels.push_back();
     //channels.push_back();
     merge(channels, fin_img);
-    namedWindow("B",1);imshow("B", fin_img);
+    namedWindow("sidewalk",1);imshow("sidewalk", fin_img);
+    
+    }{
+    vector<Mat> channels;
+    /*
+    *
+//road      124 62 128
+//objects   42 123 191
+//sidewalk  24 0 191
+//buildings 123 0 10
+//pederastian 66 67 0
+
+    */
+    //roadcd
+    channels.push_back(
+      //(rgbChannels[2]>42)&(rgbChannels[2]< 125)&
+      //                (rgbChannels[1]> 122)&(rgbChannels[1]<125)&
+                      (rgbChannels[0]>190)&(rgbChannels[0]<255)&
+                        (rgbChannels[1]>127)&(rgbChannels[1]<129)&
+                        (rgbChannels[2]>127)&(rgbChannels[2]<131)
+                      
+                      );
+    //channels.push_back();
+    //channels.push_back();
+    merge(channels, fin_img);
+    namedWindow("sidewalk",1);imshow("sidewalk", fin_img);
+    
+    }{
+    vector<Mat> channels;
+    /*
+    *
+//road      124 62 128
+//objects   42 123 191
+//sidewalk  24 0 191
+//buildings 123 0 10
+//pederastian 66 67 0
+
+    */
+    //building
+    channels.push_back(
+      //(rgbChannels[2]>42)&(rgbChannels[2]< 125)&
+      //                (rgbChannels[1]> 122)&(rgbChannels[1]<125)&
+                      (rgbChannels[0]<10)&
+                        (rgbChannels[1]>-1)&(rgbChannels[1]<1)&
+                        (rgbChannels[2]>127)&(rgbChannels[2]<131)
+                      
+                      );
+    //channels.push_back();
+    //channels.push_back();
+    merge(channels, fin_img);
+    namedWindow("buildings",1);imshow("buildings", fin_img);
     
     }
     waitKey(0);
