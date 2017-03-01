@@ -26,8 +26,8 @@ How to run it
 	#example
 
 <p align="center">
-  <img src="https://github.com/CarlosUrteaga/SENAC/blob/master/ColorSegmentation/images/001TP_118.png?raw=true" alt="GroundTruth"/>
-  <img src="https://github.com/CarlosUrteaga/SENAC/blob/master/ColorSegmentation/images/Ori-001TP_118.png?raw=true" alt="image"/>
+  <img src="https://github.com/CarlosUrteaga/SENAC/blob/master/ColorSegmentation/001TP_118.png?raw=true" alt="GroundTruth"/>
+  <img src="https://github.com/CarlosUrteaga/SENAC/blob/master/ColorSegmentation/Ori-001TP_118.png?raw=true" alt="image"/>
 </p>
 
 <p align="center">
