@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/agnar/git/SENAC/CVtest/DisplayImage.cpp
+opencv2/calib3d/calib3d.hpp
+-
+opencv/cv.h
+-
+opencv/highgui.h
+-
+stdio.h
+-
+math.h
+-
+vector
+-
+float.h
+-
+
